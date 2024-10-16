@@ -1,0 +1,6 @@
+1,Comedia
+2,Drama
+3,Accion
+4,Romance
+5,Terror
+6,Ciencia Ficcion

@@ -4,6 +4,13 @@ public class Ciudad {
     private int nroPoblacion;
     private String codCiudad;
 
+    public Ciudad(int idCiudad, String nombreCiudad, int nroPoblacion, String codCiudad) {
+        this.idCiudad = idCiudad;
+        this.nombreCiudad = nombreCiudad;
+        this.nroPoblacion = nroPoblacion;
+        this.codCiudad = codCiudad;
+    }
+
     public String getNombreCiudad() {
         return nombreCiudad;
     }

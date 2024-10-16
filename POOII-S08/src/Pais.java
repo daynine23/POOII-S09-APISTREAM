@@ -9,6 +9,16 @@ public class Pais {
     private int nroPoblacion;
     List<Ciudad> ciudades;
 
+    public Pais(String codPais, String nombrePais, String nombreContinente, double areaPoblacion, int capital, int nroPoblacion, List<Ciudad> ciudades) {
+        this.codPais = codPais;
+        this.nombrePais = nombrePais;
+        this.nombreContinente = nombreContinente;
+        this.areaPoblacion = areaPoblacion;
+        this.capital = capital;
+        this.nroPoblacion = nroPoblacion;
+        this.ciudades = ciudades;
+    }
+
     public String getCodPais() {
         return codPais;
     }

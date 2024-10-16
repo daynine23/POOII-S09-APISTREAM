@@ -1,0 +1,18 @@
+MX,Mexico,America,72.000,1,130000000
+EU,Estados Unidos,America,270.000,1,340000000
+BR,Brasil,America,75.000,1,215000000
+AR,Argentina,America,22.000,1,46000000
+NG,Nigeria,Africa,18.000,1,228000000
+RC,Republica Democratica del Congo,Africa,10.000,1,102000000
+EG,Egipto,Africa,30.000,1,111000000
+KE,Kenia,Africa,6.000,1,59000000
+AN,Angola,Africa,7.000,1,37000000
+CH,China,Asia,220.000,1,1425000000
+PK,Pakistan,Asia,27.000,1,249000000
+BN,Bangladesh,Asia,16.000,1,173000000
+IN,India,Asia,110.000,1,1432000000
+TU,Turquia,Europa,17.000,1,87000000
+RU,Rusia,Europa,15.000,1,146000000
+IG,Inglaterra,Europa,13.000,1,68000000
+AL,Alemania,Europa,50.000,1,84000000
+AU,Australia,Oceania,25.000,1,26000000

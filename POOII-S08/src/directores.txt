@@ -1,0 +1,5 @@
+1,James Cameron,Oscar,Globo de Oro
+2,Quentin Tarantino,Oscar,Palma de Oro
+3,Olivier Nakache,Cesar,Goya
+4,Damien Chazelle,Oscar,Globo de Oro
+5,Peter Weir,MTV Movie Award,Globo de Oro
