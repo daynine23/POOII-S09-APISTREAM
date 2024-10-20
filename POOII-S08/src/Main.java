@@ -1,6 +1,7 @@
 import Utils.FileUtil;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Predicate;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -189,6 +190,32 @@ public class Main {
                     .collect(Collectors.joining(", "));
             System.out.println("Pelicula: " + pelicula.getTituloPelicula() + " tiene los generos: " + generosDC);
         });
+
+        System.out.println("");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("");
+
+
+        // 4. Ordena los países por número de sus ciudades en orden descendente.
+
+        List<Pais> paisesOrdenadosDescendientePorCantCiudades = paises.stream()
+                .sorted(Comparator.comparingInt(Pais::getCantidadCiudades).reversed()).toList();
+
+        AtomicInteger j = new AtomicInteger(paisesOrdenadosDescendientePorCantCiudades.size()); // Inicializa el contador
+        paisesOrdenadosDescendientePorCantCiudades.forEach(pais -> System.out.println(j.getAndDecrement() + ". " + pais.getNombrePais() + " tiene " + pais.getCiudades().size() + " ciudades."));
+
+
+        System.out.println("");
+        System.out.println("-----------------------------------------------------------------------------------------");
+        System.out.println("");
+
+        //5. Ordena los países por número de población en orden ascendente.
+
+        List<Pais> paisesOrdenadosAscendentePorNumPob = paises.stream()
+                .sorted(Comparator.comparingInt(Pais::getNroPoblacion)).toList();
+        AtomicInteger i = new AtomicInteger(1); // Inicializa el contador
+        paisesOrdenadosAscendentePorNumPob.forEach(pais -> System.out.println(i.getAndIncrement() + ". " + pais.getNombrePais() + " tiene numero de poblacion : " + pais.getNroPoblacion()));
+
 
     }
 }

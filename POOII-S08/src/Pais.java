@@ -74,4 +74,8 @@ public class Pais {
     public void setCiudades(List<Ciudad> ciudades) {
         this.ciudades = ciudades;
     }
+
+    public int getCantidadCiudades() {
+        return ciudades.size(); // Método que devuelve el tamaño
+    }
 }
